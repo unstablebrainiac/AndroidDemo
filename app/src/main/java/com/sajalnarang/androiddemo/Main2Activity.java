@@ -94,7 +94,6 @@ public class Main2Activity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            cameraIntent.putE
             startActivityForResult(cameraIntent, REQUEST_IMAGE_CAPTURE);
         } else if (id == R.id.nav_gallery) {
             BlankFragment blankFragment = new BlankFragment();
